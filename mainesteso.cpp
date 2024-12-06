@@ -6,7 +6,7 @@ int main() {
     dizionario.inserisci("diario", 30);
 
     dizionario.stampa();
-    dizionario.inserisci("diario");
+    dizionario.inserisci("diario","mario");
     
     std::cout << "Valore associato a 'zaino': " << dizionario.recupera("zaino") << std::endl;
 
