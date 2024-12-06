@@ -55,4 +55,22 @@ public:
             }
         }
     }
+
+
+     T cancella(const std::string key){
+         int index = hashFunction (key);
+         table[index].isOccupied = false;
+     }
+
+    bool appartiene(const:: string key) const{
+        int index = hashFunction(key);
+        bool a;
+        
+        if (table[index].isOccupied && table[index].key=key)
+            a= true;
+            else
+            a=false;
+     
+        return a;
+        
 };
